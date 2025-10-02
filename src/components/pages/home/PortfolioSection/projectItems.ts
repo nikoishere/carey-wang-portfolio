@@ -49,6 +49,17 @@ export const projectItems = {
     ],
     fullstack: [
         {
+            id: "portfolio-website",
+            title: "Personal Portfolio Website",
+            description:
+                "A modern, responsive portfolio website showcasing my projects, experience, and skills. Built with Next.js, React, TypeScript, and Tailwind CSS. Features interactive sections, smooth animations, and mobile-first design.",
+            websiteLink: "https://carey.wang",
+            sourceLink: "https://github.com/nikoishere/carey-wang-portfolio",
+            techStacks: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
+            showSourceCode: true,
+            showWebsite: true
+        },
+        {
             id: "food-ordering",
             title: "Online Food Ordering Platform",
             description:
