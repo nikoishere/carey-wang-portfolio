@@ -54,6 +54,9 @@
             },
             "ai-agent": {
               "description": "An orchestration system for AI agents using Spring Boot, MyBatis, Redis, and PGVector. Supports RAG knowledge bases, prompt orchestration, and hot-deploy low-code visual flows."
+            },
+            "summailize": {
+              "description": "A lightweight AI agent that automatically summarizes Gmail messages into short, actionable insights. Built as a Chrome Extension with Flask backend, featuring Azure OpenAI integration, Firebase storage, and timezone-aware background scheduling for autonomous email processing."
             }
           },
           "fullstack": {

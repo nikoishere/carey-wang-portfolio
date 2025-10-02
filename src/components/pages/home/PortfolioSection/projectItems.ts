@@ -45,6 +45,17 @@ export const projectItems = {
             techStacks: ["Java", "Spring Boot", "PGVector", "Redis", "Docker"],
             showSourceCode: false,
             showWebsite: false
+        },
+        {
+            id: "summailize",
+            title: "Summailize - Gmail AI Summarizer Agent",
+            description:
+                "A lightweight AI agent that automatically summarizes Gmail messages into short, actionable insights. Built as a Chrome Extension with Flask backend, featuring Azure OpenAI integration, Firebase storage, and timezone-aware background scheduling for autonomous email processing.",
+            websiteLink: "https://github.com/lydia-yan/Summailize",
+            sourceLink: "https://github.com/lydia-yan/Summailize",
+            techStacks: ["Python", "Flask", "Azure OpenAI", "Firebase", "React", "Chrome Extension"],
+            showSourceCode: true,
+            showWebsite: false
         }
     ],
     fullstack: [
