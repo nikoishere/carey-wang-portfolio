@@ -13,7 +13,7 @@ export default function AboutSection() {
             id="about"
         >
             <div className="container grid cursor-default place-items-center gap-12 py-12 lg:grid-cols-2 lg:gap-20 lg:py-20">
-                <NextImage src={AboutMeImage} alt="" />
+                <NextImage src={AboutMeImage} alt="About Me Illustration" />
                 <div className="grid gap-4 font-semibold text-white">
                     <h2 className="text-3xl font-bold text-primary-100 md:text-6xl">
                         {t("title")}

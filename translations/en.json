@@ -1,93 +1,87 @@
 {
     "Home": {
-        "GreetingSection": {
-            "greeting": "Hey there, my name is",
-            "name": "Serdar Gökhan",
-            "title": "A passionate Frontend Developer",
-            "paragraph-one": "I'm a frontend developer and mechatronics engineer based in İstanbul. I specialize in creating websites that are not only visually stunning but also perform smoothly across different browsers and devices.",
-            "paragraph-two": "If you scroll down a bit, you can check out some of my recent projects and see what I've been up to. Right now, I'm working at <link>EnterERP</link> and developing websites that are intuitive and easy to use while delivering real value to our customers."
-        },
+      "GreetingSection": {
+        "greeting": "Hey there, my name is",
+        "name": "Carey Wang",
+        "title": "A Passionate Software Engineer",
+        "paragraph-one": "I'm a software engineer based in Irvine, CA. I thrive on building scalable backend systems, designing distributed architectures, and crafting applications that are smooth, intuitive, and impactful.",
+        "paragraph-two": "I’m passionate about creating technology that feels effortless yet powerful. From high-concurrency platforms and e-commerce systems to AI-driven orchestration tools and research applications, I love tackling challenges and delivering solutions that not only work but also inspire."
+      },
         "AboutSection": {
-            "title": "About Me",
-            "paragraph-one": "Greetings! My name is Serdar Gökhan, and I am a mechatronics engineer who graduated from Marmara University. Currently residing in İstanbul, Turkey, I began my programming journey while still in university, and in June 2021, I set out to embark on a web development journey.",
-            "paragraph-two": "I started by learning the fundamentals of HTML, CSS, and JavaScript, and while it was challenging, I took the time to ensure a strong understanding of these languages. This foundation has allowed me to quickly pick up more advanced frameworks and libraries, such as ReactJS, NextJS, TailwindCSS, and TypeScript.",
-            "paragraph-three": "Along the way, I have developed numerous projects, and my goal is to continue to hone my skills and become an even better developer. I am excited to see where this journey takes me, as there is always so much to explore in the ever-changing world of web development."
+        "title": "About Me",
+        "paragraph-one": "Greetings! My name is Carey Wang, and I am a passionate software engineer who enjoys turning ideas into real-world applications. Residing in Irvine, CA, I started programming during my undergraduate years in civil engineering, and since then I’ve been drawn to the endless possibilities of technology. I am currently pursuing my Master of Software Engineering at the University of California, Irvine, and will graduate in December 2025.",
+        "paragraph-two": "I began by learning the fundamentals of Java, Python, and web development. Over time, I built a strong foundation that has allowed me to quickly pick up advanced frameworks and tools such as Spring Boot, React, Redis, Docker, Kubernetes, and cloud platforms like AWS and GCP.",
+        "paragraph-three": "Along the way, I have worked on a variety of projects, including subscription commerce systems, marketing lottery platforms, AI agent orchestration engines, and transportation modeling tools. My goal is to keep honing my skills, push the boundaries of what I can build, and create technology that is reliable, scalable, and truly impactful."
         },
-        "PortfolioSection": {
-            "title": "Some Projects I've Built",
-            "actions": {
-                "visit-website": "Visit Website",
-                "source-code": "Source Code"
-            },
-            "projects": {
-                "nextjs": {
-                    "microsoft-todo-clone": {
-                        "description": "This is the biggest project that I have in my portfolio. It took me so long even to get the project so far. I could not finish it due to work but I have done a lot. I owe a lot of new knowledge to this project. In this project I have used TypeScript, SCSS, Firebase Authentication, and MongoDB. I learnt MongoDB from scratch with this project."
-                    },
-                    "add-your-website": {
-                        "description": "I have developed this project as a part of a tutorial from Youtube thanks to Lee Robinson for inspiration. I have used Chakra UI, useSWR, and Skeleton loading for the first time with this project. I also stored the user information on Firebase Firestore and login was implemented with Firebase authentication. It has Github login authentication."
-                    },
-                    "shopify-clone": {
-                        "description": "I have completed this project and I got inspired from Shopify website. It is kind of e-commerce website. There are sign in and sign up proccess. User can create a product, delete a product if they created it, and also add to cart. I used minimal workflow with this project and no extra framework."
-                    }
-                },
-                "reactjs": {
-                    "create-blog-posts": {
-                        "description": "I have completed this blog website. It has sign in and sign up utilities. User can sign up, sign in, and create a blog post. sign in and sign up credentials is stored on firebase real-time database. After blog post is created, it will be shown on the home page. I also experienced framer-motion library with this project."
-                    },
-                    "crypto-marketcap": {
-                        "description": "I have completed this cryptocurrency marketcap website. It has landing page, and a header to show some crypto statistics. It also has coins tab and user can see Top 100 coins with images and some other values. I have used Cryptomarketcap API for this project. Finally, there were some errors about CORS policy and I used netlify-cli tool for that as well."
-                    },
-                    "auth-firebase": {
-                        "description": "This was my first project using TailwindCSS. It has basically two screens sign up and sign in. There is no react-router setup. I learned basics of React. I used Firebase real-time database to store user credentials."
-                    },
-                    "currency-converter": {
-                        "description": "This is a basic currency converter website. I have used currency API to retrieve data of currencies. I also used react-select library to be specific about currency exchanges."
-                    },
-                    "resipe-search": {
-                        "description": "This is my very first React single page application. I have used edamam API for this project. It basically has an input field for searching some recipes. I also used react-loader-spinner for loading state for this project for better user experience."
-                    }
-                },
-                "reactNative": {
-                    "register-and-search-news": {
-                        "description": "This is my news application developed with React-Native. I have used lots of frameworks with this project. It has sign up and sign in screens. Once user is authenticated it redirects user to home page to show the latest news from news API. I implemented categories, search, and skeleton loading into this project. There is also a profile section which user can see information about itself."
-                    },
-                    "restaurant-search": {
-                        "description": "This is a restaurant search application. I have used Yelp API to get the data about restaurants. There is an input field on the home page for users to search restaurants. Once they search it, they can tap into the details of individual restaurant and see lots of details like reviews, images, and location of the restaurant on the map."
-                    },
-                    "auth-screen": {
-                        "description": "This is a basic UI implementation for react-native. It has just sign up and sign in screens with no interactivity like signing in. I have used bottom tab navigator with this project and also I improved my layout skills in react-native."
-                    }
-                },
-                "javascript": {
-                    "budget-tracker": {
-                        "description": "This is a budget tracker website. It provides some functions for user to track their budget with one screen."
-                    },
-                    "movie-list": {
-                        "description": "This is a movie list website. It shows latest trending movies on the screen. I have used themoviedb API to get the data of movies."
-                    },
-                    "todo-list": {
-                        "description": "This is a to-do list website. As every beginner I made a to-do list to understand everything more in programming. User can add to-do, complete to-do, and delete to-do like so."
-                    },
-                    "search-weather-location": {
-                        "description": "This is a weather website to show weather of a given location. I have used Openweathermap API to get the data and show to the user. It also has the search functionality for a location."
-                    }
-                }
-            }
+      "ExperienceSection": {
+        "title": "Experience",
+        "submarts": {
+          "title": "Software Engineer Intern",
+          "company": "SubMarts Inc - B2B/B2C e-commerce marketplace specializing in subscription services",
+          "location": "Irvine, CA",
+          "duration": "07/2025 – Present",
+          "description": "Developing scalable backend systems for subscription commerce platform with focus on order management, real-time notifications, and third-party integrations.",
+          "order-management": "Order Management System: Developed ongoing order management **Spring Boot** APIs handling subscription lifecycle tracking, implementing multi-status order processing with complex data aggregation across 8+ database tables and dynamic order action resolution for cancellations, returns, and refunds.",
+          "notification-service": "Real-time Notification Service: Developed real-time user notification service using **Redis** message queuing and **RPC-based APIs**; implemented event-driven workflows for order state changes, achieving 99.5% delivery success rate.",
+          "third-party-integration": "Third-party Integration: Implemented **OAuth2** authorization flows with **PKCE** enhancements for integrating **Stripe Connect**, enabling secure third-party billing and reducing manual reconciliation workload by 85%.",
+          "api-development": "API Development Integration: Built review and rating **RESTful API** endpoints with **Hibernate ORM**, implementing duplicate prevention logic through database constraints and custom validation; developed rating aggregation functions for weighted merchant scoring algorithms.",
+          "cloud-infrastructure": "Cloud Infrastructure Optimization: Optimized **AWS** deployment, configuring **EC2** auto-scaling groups and **RDS Multi-AZ** setup that reduced infrastructure costs by 30% compared to fixed instances while ensuring zero-downtime processing for high-volume subscription orders."
         },
-        "ContactSection": {
-            "title": "Contact Me",
-            "paragraph-one": "If you have any inquiries or would like to discuss a potential project, feel free to reach out to me through the contact email provided below. I'm always open to collaboration and love working with new clients.",
-            "paragraph-two": "Additionally, if you simply want to connect or have any questions about my work, don't hesitate to drop me a message. Looking forward to hearing from you soon!",
-            "cta": "Say Hello!"
+        "uci": {
+          "title": "Graduate Student Researcher",
+          "department": "Institute of Transportation Studies, UCI",
+          "location": "Irvine, CA",
+          "duration": "07/2025 – Present",
+          "description": "Conducting research in transportation modeling systems with focus on system integration, workflow automation, and debugging frameworks for simulation pipelines.",
+          "system-integration": "System Integration: Integrated and configured transportation modeling systems for cross-platform compatibility, resolving **Python** environment conflicts and implementing **pandas** data pipeline fixes to enable seamless simulation execution on research infrastructure.",
+          "workflow-automation": "Workflow Automation: Diagnosed and resolved complex workflow failures in multi-scenario simulation pipelines, developing **Python CLI** diagnostic tools with **argparse** and **YAML** configuration validation to streamline script automation and **pandas** data preprocessing workflows.",
+          "debugging-framework": "Debugging Framework: Implemented comprehensive debugging framework using **pytest** validation and **debugpy** remote debugging, creating systematic troubleshooting procedures that reduced system setup time by 50% and established reproducible simulation environment for ongoing research."
         }
+      },
+      "PortfolioSection": {
+        "title": "Some Projects I've Built",
+        "actions": {
+          "visit-website": "Visit Website",
+          "source-code": "Source Code"
+        },
+        "projects": {
+          "backend": {
+            "promomall": {
+              "description": "A high-concurrency marketing lottery platform built with Java, Spring Boot, Redis, RocketMQ, and ElasticSearch. Designed rule-engine microservices and implemented Redis-based sliding-block locks to ensure consistency under thousands of concurrent requests."
+            },
+            "submarts": {
+              "description": "Built a subscription commerce platform with automated Stripe billing, order lifecycle management, and real-time notifications using Redis Streams and WebSockets. Reduced manual reconciliation by 85% through backend automation."
+            },
+            "ai-agent": {
+              "description": "An orchestration system for AI agents using Spring Boot, MyBatis, Redis, and PGVector. Supports RAG knowledge bases, prompt orchestration, and hot-deploy low-code visual flows."
+            }
+          },
+          "fullstack": {
+            "food-ordering": {
+              "description": "An online food ordering system similar to DoorDash, built with Spring MVC, Hibernate, and React. Features product management, order tracking, and secure login with Spring Security."
+            }
+          },
+          "mobile": {
+            "music-player": {
+              "description": "A Spotify-like Android music player built with Kotlin and MVVM architecture. Supports offline playback, playlist management, and a smooth UI powered by ExoPlayer."
+            }
+          }
+        }
+      },
+      "ContactSection": {
+        "title": "Contact Me",
+        "paragraph-one": "If you have any inquiries, collaboration ideas, or opportunities, feel free to reach out via email. I enjoy working with passionate teams and exploring new challenges in software engineering.",
+        "paragraph-two": "Even if you just want to connect or discuss tech, I’d be happy to hear from you. Looking forward to meaningful conversations and future collaborations!",
+        "cta": "Say Hello!"
+      }
     },
     "Navigation": {
-        "about": "About",
-        "projects": "Projects",
-        "contact": "Contact",
-        "resume": "Resume"
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact",
+      "resume": "Resume"
     },
-    "default-seo-title": "Portfolio | Serdar Gökhan",
-    "default-seo-description": "I’m a frontend developer also a mechatronics engineer building scalable, cross-browser compatible, performant, and responsive websites."
-}
+    "default-seo-title": "Portfolio | Carey Wang",
+    "default-seo-description": "I'm a passionate software engineer building scalable, distributed, and impactful applications across backend, full-stack, and AI-driven systems."
+  }

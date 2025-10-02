@@ -8,7 +8,7 @@ import { categoryButtons } from "./categoryButtons";
 import ProjectItem from "./ProjectItem";
 
 export default function PortfolioSection() {
-    const [category, setCategory] = useState<Category>("nextjs");
+    const [category, setCategory] = useState<Category>("backend");
 
     const t = useTranslations("Home.PortfolioSection");
 
@@ -48,6 +48,8 @@ export default function PortfolioSection() {
                                 `projects.${category}.${projectItem.id}.description` as any
                             )}
                             techStacks={projectItem.techStacks}
+                            showSourceCode={projectItem.showSourceCode}
+                            showWebsite={projectItem.showWebsite}
                         />
                     ))}
                 </div>

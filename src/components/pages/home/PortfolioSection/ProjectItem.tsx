@@ -8,7 +8,9 @@ export default function ProjectItem({
     description,
     websiteLink,
     sourceLink,
-    techStacks
+    techStacks,
+    showSourceCode = false,
+    showWebsite = false
 }: Omit<ProjectItemProps, "id">) {
     const t = useTranslations("Home.PortfolioSection.actions");
 
@@ -30,21 +32,31 @@ export default function ProjectItem({
             </ul>
 
             <div className="mt-auto flex justify-end gap-4">
-                <NextLink
-                    href={websiteLink}
-                    className="group flex w-1/2 items-center justify-around rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white md:w-1/3"
-                >
-                    <span>{t("visit-website")}</span>
-                    <ExternalLinkIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
-                </NextLink>
+                {showWebsite && (
+                    <NextLink
+                        href={websiteLink}
+                        className="group flex w-1/2 items-center justify-around rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white md:w-1/3"
+                    >
+                        <span>{t("visit-website")}</span>
+                        <ExternalLinkIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
+                    </NextLink>
+                )}
 
-                <NextLink
-                    href={sourceLink}
-                    className="group flex w-1/2 items-center justify-around rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white md:w-1/3"
-                >
-                    <span>{t("source-code")}</span>
-                    <GithubIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
-                </NextLink>
+                {showSourceCode && (
+                    <NextLink
+                        href={sourceLink}
+                        className="group flex w-1/2 items-center justify-around rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white md:w-1/3"
+                    >
+                        <span>{t("source-code")}</span>
+                        <GithubIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
+                    </NextLink>
+                )}
+
+                {!showWebsite && !showSourceCode && (
+                    <div className="w-full text-center text-gray-500 italic">
+                        Project details coming soon...
+                    </div>
+                )}
             </div>
         </article>
     );

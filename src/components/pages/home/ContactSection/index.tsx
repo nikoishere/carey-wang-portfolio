@@ -22,7 +22,7 @@ export default function ContactSection() {
                     <div className="group inline-block w-fit">
                         <NextLink
                             className="inline-block rounded-md border border-primary-300 bg-white px-4 py-2.5 font-semibold transition duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[-4px_4px_0px_0px_#3a10e5]"
-                            href="mailto:gokhan_bakirci_53@hotmail.com"
+                            href="mailto:yifeiswe@gmail.com"
                         >
                             {t("cta")}
                         </NextLink>

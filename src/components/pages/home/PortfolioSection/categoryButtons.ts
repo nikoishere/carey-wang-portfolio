@@ -1,24 +1,19 @@
-import { JavascriptIcon, NextIcon, ReactIcon } from "@src/icons";
+import { BackendIcon, ReactIcon, MobileIcon } from "@src/icons";
 
 export const categoryButtons = [
     {
-        id: "nextjs",
-        title: "Next JS",
-        icon: NextIcon
+        id: "backend",
+        title: "Backend",
+        icon: BackendIcon
     },
     {
-        id: "reactjs",
-        title: "React JS",
+        id: "fullstack",
+        title: "Full Stack",
         icon: ReactIcon
     },
     {
-        id: "reactNative",
-        title: "React Native",
-        icon: ReactIcon
-    },
-    {
-        id: "javascript",
-        title: "Javascript",
-        icon: JavascriptIcon
+        id: "mobile",
+        title: "Mobile",
+        icon: MobileIcon
     }
 ] as const;
