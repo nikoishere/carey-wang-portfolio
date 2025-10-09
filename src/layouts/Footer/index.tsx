@@ -15,7 +15,7 @@ export default function Footer() {
                         <GithubIcon className="h-8 w-8 fill-white transition hover:fill-primary-100" />
                     </NextLink>
                     <NextLink
-                        href="https://www.linkedin.com/in/yifeicareywang/"
+                        href="https://www.linkedin.com/in/careysde/"
                         title="Linkedin"
                     >
                         <LinkedinIcon className="h-8 w-8 fill-white transition hover:fill-primary-100" />
