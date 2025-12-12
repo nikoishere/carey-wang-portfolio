@@ -14,25 +14,24 @@ export type ProjectItem = {
 export const projectItems = {
     backend: [
         {
+            id: "ai-orchestrator",
+            title: "AI-Powered Software Development Orchestrator",
+            description: "Developed a multi-agent AI system capable of automating the full software development lifecycle (SDLC), utilizing Model Context Protocol (MCP) and Google Gemini 2.5 models. Features an interactive Gradio web interface for iterative review and automatically generates comprehensive unit and integration tests.",
+            websiteLink: "https://github.com/kennygchen/BudgetMaster",
+            sourceLink: "https://github.com/kennygchen/BudgetMaster",
+            techStacks: ["Python", "Gemini API", "MCP", "Gradio", "Node.js", "Docker"],
+            showSourceCode: true,
+            showWebsite: false
+        },
+        {
             id: "promomall",
             title: "PromoMall Lottery Platform",
             description:
                 "A high-concurrency marketing lottery platform built with Java, Spring Boot, Redis, RocketMQ, and ElasticSearch. Designed rule-engine microservices and implemented Redis-based sliding-block locks to ensure consistency under thousands of concurrent requests.",
-            websiteLink: "https://github.com/carey-wang/promomall",
-            sourceLink: "https://github.com/carey-wang/promomall",
-            techStacks: ["Java", "Spring Boot", "Redis", "RocketMQ", "ElasticSearch"],
-            showSourceCode: false,
-            showWebsite: false
-        },
-        {
-            id: "submarts",
-            title: "SubMarts Subscription Commerce",
-            description:
-                "Built a subscription commerce platform with automated Stripe billing, order lifecycle management, and real-time notifications using Redis Streams and WebSockets. Reduced manual reconciliation by 85% through backend automation.",
-            websiteLink: "https://github.com/carey-wang/submarts",
-            sourceLink: "https://github.com/carey-wang/submarts",
-            techStacks: ["Java", "Spring Boot", "Stripe", "Redis", "Docker"],
-            showSourceCode: false,
+            websiteLink: "https://github.com/nikoishere/PromoMall",
+            sourceLink: "https://github.com/nikoishere/PromoMall",
+            techStacks: ["Java", "Spring Boot", "Redis", "Kafka", "ElasticSearch"],
+            showSourceCode: true,
             showWebsite: false
         },
         {

@@ -19,7 +19,7 @@
           "title": "Software Engineer Intern",
           "company": "SubMarts Inc - B2B/B2C e-commerce marketplace specializing in subscription services",
           "location": "Irvine, CA",
-          "duration": "07/2025 – Present",
+          "duration": "Jul 2025 – Present",
           "description": "Developing scalable backend systems for subscription commerce platform with focus on order management, real-time notifications, and third-party integrations.",
           "order-management": "Order Management System: Developed ongoing order management **Spring Boot** APIs handling subscription lifecycle tracking, implementing multi-status order processing with complex data aggregation across 8+ database tables and dynamic order action resolution for cancellations, returns, and refunds.",
           "notification-service": "Real-time Notification Service: Developed real-time user notification service using **Redis** message queuing and **RPC-based APIs**; implemented event-driven workflows for order state changes, achieving 99.5% delivery success rate.",
@@ -31,11 +31,22 @@
           "title": "Graduate Student Researcher",
           "department": "Institute of Transportation Studies, UCI",
           "location": "Irvine, CA",
-          "duration": "07/2025 – Present",
+          "duration": "Jul 2025 – Dec 2025",
           "description": "Conducting research in transportation modeling systems with focus on system integration, workflow automation, and debugging frameworks for simulation pipelines.",
           "system-integration": "System Integration: Integrated and configured transportation modeling systems for cross-platform compatibility, resolving **Python** environment conflicts and implementing **pandas** data pipeline fixes to enable seamless simulation execution on research infrastructure.",
           "workflow-automation": "Workflow Automation: Diagnosed and resolved complex workflow failures in multi-scenario simulation pipelines, developing **Python CLI** diagnostic tools with **argparse** and **YAML** configuration validation to streamline script automation and **pandas** data preprocessing workflows.",
           "debugging-framework": "Debugging Framework: Implemented comprehensive debugging framework using **pytest** validation and **debugpy** remote debugging, creating systematic troubleshooting procedures that reduced system setup time by 50% and established reproducible simulation environment for ongoing research."
+        },
+        "capstone": {
+          "title": "Software Engineer (Capstone)",
+          "company": "Office of Information Technology, UCI",
+          "location": "Irvine, CA",
+          "duration": "Sep 2025 – Dec 2025",
+          "description": "Built a production-grade interface for data-lake configurations and integrated secure SSO authentication.",
+          "react-interface": "Built a production **React** and **TypeScript** interface with **Vite** and **Tailwind** to manage data-lake configurations, improving the speed and clarity of creating and editing ingestion settings.",
+          "sso-integration": "Integrated UCI Shibboleth SSO through **AWS Cognito** using **OAuth** and **SAML**, completing secure redirect flow, token handling, and session based access control in the frontend.",
+          "api-model": "Implemented a POST based API model on **API Gateway** with **Cognito User Pool Authorizer** and connected frontend actions to **Lambda** functions backed by **DynamoDB** for reading and saving configuration data.",
+          "automated-deployment": "Set up automated deployment with **AWS Amplify Hosting** using **GitHub** based **CI/CD** and produced developer documentation for architecture, SSO flow, deployment steps, and debugging practices."
         }
       },
       "PortfolioSection": {
@@ -46,11 +57,11 @@
         },
         "projects": {
           "backend": {
+            "ai-orchestrator": {
+              "description": "Developed a multi-agent AI system capable of automating the full software development lifecycle (SDLC), utilizing Model Context Protocol (MCP) and Google Gemini 2.5 models. Features an interactive Gradio web interface for iterative review and automatically generates comprehensive unit and integration tests."
+            },
             "promomall": {
               "description": "A high-concurrency marketing lottery platform built with Java, Spring Boot, Redis, RocketMQ, and ElasticSearch. Designed rule-engine microservices and implemented Redis-based sliding-block locks to ensure consistency under thousands of concurrent requests."
-            },
-            "submarts": {
-              "description": "Built a subscription commerce platform with automated Stripe billing, order lifecycle management, and real-time notifications using Redis Streams and WebSockets. Reduced manual reconciliation by 85% through backend automation."
             },
             "ai-agent": {
               "description": "An orchestration system for AI agents using Spring Boot, MyBatis, Redis, and PGVector. Supports RAG knowledge bases, prompt orchestration, and hot-deploy low-code visual flows."

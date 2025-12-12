@@ -86,6 +86,46 @@ export default function ExperienceSection() {
                         </ul>
                     </div>
 
+                    {/* Capstone Experience */}
+                    <div className="bg-white p-8 rounded-lg shadow-lg">
+                        <div className="mb-6">
+                            <div className="flex justify-between items-start mb-2">
+                                <h3 className="text-2xl font-bold">
+                                    {t("capstone.title")}
+                                </h3>
+                                <p className="text-lg font-semibold">
+                                    {t("capstone.duration")}
+                                </p>
+                            </div>
+                            <div className="flex justify-between items-center mb-1">
+                                <p className="text-lg font-semibold">
+                                    {t("capstone.company")}
+                                </p>
+                                <p className="text-lg font-semibold">
+                                    {t("capstone.location")}
+                                </p>
+                            </div>
+                            <p className="italic">
+                                {t("capstone.description")}
+                            </p>
+                        </div>
+                        
+                        <ul className="space-y-4">
+                            <li>
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("capstone.react-interface"))}
+                            </li>
+                            <li>
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("capstone.sso-integration"))}
+                            </li>
+                            <li>
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("capstone.api-model"))}
+                            </li>
+                            <li>
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("capstone.automated-deployment"))}
+                            </li>
+                        </ul>
+                    </div>
+
                     {/* UCI Experience */}
                     <div className="bg-white p-8 rounded-lg shadow-lg">
                         <div className="mb-6">
