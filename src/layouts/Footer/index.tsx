@@ -22,7 +22,7 @@ export default function Footer() {
                     </NextLink>
                 </div>
                 <p className="hidden sm:inline-block">
-                    Made with ❤️ © {new Date().getFullYear()}
+                    © {new Date().getFullYear()} Carey Wang
                 </p>
             </div>
         </footer>
