@@ -15,38 +15,47 @@
         },
       "ExperienceSection": {
         "title": "Experience",
+        "its": {
+          "title": "Applications Programmer",
+          "department": "Institute of Transportation Studies, UC Irvine",
+          "location": "Irvine, CA",
+          "duration": "Jan 2026 – Present",
+          "description": "Building AI-powered developer tooling for transportation simulation research, focusing on root cause analysis, knowledge retrieval, and production reliability.",
+          "rca-agent": "RCA Agent: Developed a post-run **Python** root cause analysis agent for long-running **ActivitySim** simulations that summarizes failure logs, extracts key stack traces and **YAML** config context, and generates a concise root cause report for researchers.",
+          "rag-knowledge-base": "RAG Knowledge Base: Built a retrieval-augmented knowledge base by embedding runbooks and resolved incidents into **pgvector** on **PostgreSQL**, stored source documents in **Amazon S3**, and returned cited snippets to suggest likely fixes.",
+          "productionization": "Productionization: Hardened the tool with structured log parsing, rate limiting, timeouts and fallbacks, and basic latency and token cost metrics so it runs safely on shared lab machines."
+        },
         "submarts": {
           "title": "Software Engineer Intern",
-          "company": "SubMarts Inc - B2B/B2C e-commerce marketplace specializing in subscription services",
+          "company": "SubMarts Inc",
           "location": "Irvine, CA",
-          "duration": "Jul 2025 – Present",
-          "description": "Developing scalable backend systems for subscription commerce platform with focus on order management, real-time notifications, and third-party integrations.",
-          "order-management": "Order Management System: Developed ongoing order management **Spring Boot** APIs handling subscription lifecycle tracking, implementing multi-status order processing with complex data aggregation across 8+ database tables and dynamic order action resolution for cancellations, returns, and refunds.",
-          "notification-service": "Real-time Notification Service: Developed real-time user notification service using **Redis** message queuing and **RPC-based APIs**; implemented event-driven workflows for order state changes, achieving 99.5% delivery success rate.",
-          "third-party-integration": "Third-party Integration: Implemented **OAuth2** authorization flows with **PKCE** enhancements for integrating **Stripe Connect**, enabling secure third-party billing and reducing manual reconciliation workload by 85%.",
-          "api-development": "API Development Integration: Built review and rating **RESTful API** endpoints with **Hibernate ORM**, implementing duplicate prevention logic through database constraints and custom validation; developed rating aggregation functions for weighted merchant scoring algorithms.",
-          "cloud-infrastructure": "Cloud Infrastructure Optimization: Optimized **AWS** deployment, configuring **EC2** auto-scaling groups and **RDS Multi-AZ** setup that reduced infrastructure costs by 30% compared to fixed instances while ensuring zero-downtime processing for high-volume subscription orders."
+          "duration": "Jul 2025 – Sep 2025",
+          "description": "Built scalable backend systems for a subscription commerce platform focusing on order lifecycle management, real-time notifications, and cloud infrastructure.",
+          "order-management": "Designed and built an order state machine in **Java** to manage order transitions across payment, inventory, and notification services, avoiding broken or stuck orders by handling rollbacks under partial failures.",
+          "notification-service": "Developed a notification service with **Redis** message queues and achieved a 99.9% message delivery success rate through deduplication and retry controls over 100,000 transactions.",
+          "api-development": "Built **REST APIs** using **Hibernate** to apply weighted scoring logic to showcase ranked customer reviews.",
+          "cloud-infrastructure": "Reconfigured **AWS** infrastructure with **EC2** Auto Scaling Groups to handle traffic spikes."
         },
         "uci": {
           "title": "Graduate Student Researcher",
-          "department": "Institute of Transportation Studies, UCI",
+          "department": "Institute of Transportation Studies, UC Irvine",
           "location": "Irvine, CA",
           "duration": "Jul 2025 – Dec 2025",
-          "description": "Conducting research in transportation modeling systems with focus on system integration, workflow automation, and debugging frameworks for simulation pipelines.",
-          "system-integration": "System Integration: Integrated and configured transportation modeling systems for cross-platform compatibility, resolving **Python** environment conflicts and implementing **pandas** data pipeline fixes to enable seamless simulation execution on research infrastructure.",
-          "workflow-automation": "Workflow Automation: Diagnosed and resolved complex workflow failures in multi-scenario simulation pipelines, developing **Python CLI** diagnostic tools with **argparse** and **YAML** configuration validation to streamline script automation and **pandas** data preprocessing workflows.",
-          "debugging-framework": "Debugging Framework: Implemented comprehensive debugging framework using **pytest** validation and **debugpy** remote debugging, creating systematic troubleshooting procedures that reduced system setup time by 50% and established reproducible simulation environment for ongoing research."
+          "description": "Refactored and automated transportation simulation pipelines, improving reliability, performance, and developer experience for ongoing research.",
+          "system-integration": "Refactored legacy transportation modeling codebase in **Python**, resolved dependency conflicts with **Poetry** dependency management and virtual environments, improved cross-platform reliability and eliminated configuration errors.",
+          "workflow-automation": "Automated multi-scenario simulation pipelines with **Python** scripts to reduce processing time from 24 hours to 30 minutes and eliminated recurring failures.",
+          "debugging-framework": "Implemented a testing and debugging setup using **pytest** and remote debugging, and documented troubleshooting steps that reduced system setup time by 50%."
         },
         "capstone": {
           "title": "Software Engineer (Capstone)",
-          "company": "Office of Information Technology, UCI",
+          "company": "Office of Information Technology, UC Irvine",
           "location": "Irvine, CA",
           "duration": "Sep 2025 – Dec 2025",
-          "description": "Built a production-grade interface for data-lake configurations and integrated secure SSO authentication.",
-          "react-interface": "Built a production **React** and **TypeScript** interface with **Vite** and **Tailwind** to manage data-lake configurations, improving the speed and clarity of creating and editing ingestion settings.",
-          "sso-integration": "Integrated UCI Shibboleth SSO through **AWS Cognito** using **OAuth** and **SAML**, completing secure redirect flow, token handling, and session based access control in the frontend.",
-          "api-model": "Implemented a POST based API model on **API Gateway** with **Cognito User Pool Authorizer** and connected frontend actions to **Lambda** functions backed by **DynamoDB** for reading and saving configuration data.",
-          "automated-deployment": "Set up automated deployment with **AWS Amplify Hosting** using **GitHub** based **CI/CD** and produced developer documentation for architecture, SSO flow, deployment steps, and debugging practices."
+          "description": "Built a production-grade serverless interface for data lake configurations and integrated enterprise SSO authentication.",
+          "react-interface": "Architected a serverless **React** and **TypeScript** GUI with **AWS API Gateway** to manage data lake configurations, replacing manual JSON workflows with a POST-based RPC API that routed validated requests to backend **Lambda** services backed by **DynamoDB**.",
+          "sso-integration": "Engineered enterprise SSO authentication by integrating **AWS Cognito** with UCI Shibboleth via **SAML**, leveraging API Gateway JWT Authorizers and custom identity claim mapping to propagate user role attributes for access control.",
+          "cors-preflight": "Hardened cloud infrastructure security and efficiency by configuring **API Gateway** Mock Integrations for **CORS** preflight handling, preventing unnecessary **Lambda** invocations during browser OPTIONS requests.",
+          "automated-deployment": "Automated the CI/CD deployment lifecycle using **AWS Amplify Hosting** integrated with **GitHub**, enabling branch-based deployments and globally distributed static asset delivery through **Amazon CloudFront**."
         }
       },
       "PortfolioSection": {

@@ -43,6 +43,43 @@ export default function ExperienceSection() {
                 </h2>
 
                 <div className="grid gap-12">
+                    {/* Applications Programmer - ITS UCI */}
+                    <div className="bg-white p-8 rounded-lg shadow-lg">
+                        <div className="mb-6">
+                            <div className="flex justify-between items-start mb-2">
+                                <h3 className="text-2xl font-bold">
+                                    {t("its.title")}
+                                </h3>
+                                <p className="text-lg font-semibold">
+                                    {t("its.duration")}
+                                </p>
+                            </div>
+                            <div className="flex justify-between items-center mb-1">
+                                <p className="text-lg font-semibold">
+                                    {t("its.department")}
+                                </p>
+                                <p className="text-lg font-semibold">
+                                    {t("its.location")}
+                                </p>
+                            </div>
+                            <p className="italic">
+                                {t("its.description")}
+                            </p>
+                        </div>
+
+                        <ul className="space-y-4">
+                            <li>
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("its.rca-agent"))}
+                            </li>
+                            <li>
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("its.rag-knowledge-base"))}
+                            </li>
+                            <li>
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("its.productionization"))}
+                            </li>
+                        </ul>
+                    </div>
+
                     {/* SubMarts Experience */}
                     <div className="bg-white p-8 rounded-lg shadow-lg">
                         <div className="mb-6">
@@ -73,9 +110,6 @@ export default function ExperienceSection() {
                             </li>
                             <li>
                                 <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("submarts.notification-service"))}
-                            </li>
-                            <li>
-                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("submarts.third-party-integration"))}
                             </li>
                             <li>
                                 <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("submarts.api-development"))}
@@ -118,7 +152,7 @@ export default function ExperienceSection() {
                                 <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("capstone.sso-integration"))}
                             </li>
                             <li>
-                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("capstone.api-model"))}
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("capstone.cors-preflight"))}
                             </li>
                             <li>
                                 <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("capstone.automated-deployment"))}
