@@ -14,6 +14,17 @@ export type ProjectItem = {
 export const projectItems = {
     backend: [
         {
+            id: "uci-its-rca",
+            title: "ActivitySim RCA & RAG Agent",
+            description:
+                "An AI-powered root cause analysis tool for failed ActivitySim transportation simulations. Uses a memory-safe reverse-chunk log parser, GPT-4o Structured Outputs, and a RAG knowledge base backed by pgvector on PostgreSQL and Amazon S3 to produce concise, cited root cause reports. Features rate limiting, exponential-backoff retries, and per-call cost metrics for production use on shared lab machines.",
+            websiteLink: "https://github.com/nikoishere/uci-its-rca",
+            sourceLink: "https://github.com/nikoishere/uci-its-rca",
+            techStacks: ["Python", "GPT-4o", "pgvector", "PostgreSQL", "Amazon S3", "Docker"],
+            showSourceCode: true,
+            showWebsite: false
+        },
+        {
             id: "ai-orchestrator",
             title: "AI-Powered Software Development Orchestrator",
             description: "Developed a multi-agent AI system capable of automating the full software development lifecycle (SDLC), utilizing Model Context Protocol (MCP) and Google Gemini 2.5 models. Features an interactive Gradio web interface for iterative review and automatically generates comprehensive unit and integration tests.",
