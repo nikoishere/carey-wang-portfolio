@@ -1,116 +1,126 @@
 {
     "Home": {
-      "GreetingSection": {
-        "greeting": "Hey there, my name is",
-        "name": "Carey Wang",
-        "title": "A Passionate Software Engineer",
-        "paragraph-one": "I'm a software engineer based in Irvine, CA. I thrive on building scalable backend systems, designing distributed architectures, and crafting applications that are smooth, intuitive, and impactful.",
-        "paragraph-two": "I’m passionate about creating technology that feels effortless yet powerful. From high-concurrency platforms and e-commerce systems to AI-driven orchestration tools and research applications, I love tackling challenges and delivering solutions that not only work but also inspire."
-      },
+        "GreetingSection": {
+            "greeting": "Hey there, my name is",
+            "name": "Carey Wang",
+            "title": "Software Engineer II @ Cohesity",
+            "paragraph-one": "I'm a software engineer based in the San Francisco Bay Area. I thrive on building scalable backend systems, designing distributed architectures, and crafting applications that are smooth, intuitive, and impactful.",
+            "paragraph-two": "I'm passionate about creating technology that feels effortless yet powerful. From high-concurrency platforms and e-commerce systems to AI-driven orchestration tools and research applications, I love tackling challenges and delivering solutions that not only work but also inspire."
+        },
         "AboutSection": {
-        "title": "About Me",
-        "paragraph-one": "Greetings! My name is Carey Wang, and I am a passionate software engineer who enjoys turning ideas into real-world applications. Residing in Irvine, CA, I started programming during my undergraduate years in civil engineering, and since then I’ve been drawn to the endless possibilities of technology. I am currently pursuing my Master of Software Engineering at the University of California, Irvine, and will graduate in December 2025.",
-        "paragraph-two": "I began by learning the fundamentals of Java, Python, and web development. Over time, I built a strong foundation that has allowed me to quickly pick up advanced frameworks and tools such as Spring Boot, React, Redis, Docker, Kubernetes, and cloud platforms like AWS and GCP.",
-        "paragraph-three": "Along the way, I have worked on a variety of projects, including subscription commerce systems, marketing lottery platforms, AI agent orchestration engines, and transportation modeling tools. My goal is to keep honing my skills, push the boundaries of what I can build, and create technology that is reliable, scalable, and truly impactful."
+            "title": "About Me",
+            "paragraph-one": "Greetings! My name is Carey Wang, and I am a passionate software engineer who enjoys turning ideas into real-world applications. Based in the San Francisco Bay Area, I started programming during my undergraduate years in civil engineering, and since then I've been drawn to the endless possibilities of technology. I hold a Master of Software Engineering from the University of California, Irvine, and currently work as a Software Engineer II at Cohesity.",
+            "paragraph-two": "I began by learning the fundamentals of Java, Python, and web development. Over time, I built a strong foundation that has allowed me to quickly pick up advanced frameworks and tools such as Spring Boot, React, Redis, Docker, Kubernetes, and cloud platforms like AWS and GCP.",
+            "paragraph-three": "Along the way, I have worked on a variety of projects, including subscription commerce systems, marketing lottery platforms, AI agent orchestration engines, and transportation modeling tools. My goal is to keep honing my skills, push the boundaries of what I can build, and create technology that is reliable, scalable, and truly impactful."
         },
-      "ExperienceSection": {
-        "title": "Experience",
-        "its": {
-          "title": "Applications Programmer",
-          "department": "Institute of Transportation Studies, UC Irvine",
-          "location": "Irvine, CA",
-          "duration": "Jan 2026 – Present",
-          "description": "Building AI-powered developer tooling for transportation simulation research, focusing on root cause analysis, knowledge retrieval, and production reliability.",
-          "rca-agent": "RCA Agent: Developed a post-run **Python** root cause analysis agent for long-running **ActivitySim** simulations that summarizes failure logs, extracts key stack traces and **YAML** config context, and generates a concise root cause report for researchers.",
-          "rag-knowledge-base": "RAG Knowledge Base: Built a retrieval-augmented knowledge base by embedding runbooks and resolved incidents into **pgvector** on **PostgreSQL**, stored source documents in **Amazon S3**, and returned cited snippets to suggest likely fixes.",
-          "productionization": "Productionization: Hardened the tool with structured log parsing, rate limiting, timeouts and fallbacks, and basic latency and token cost metrics so it runs safely on shared lab machines."
+        "ExperienceSection": {
+            "title": "Experience",
+            "cohesity": {
+                "title": "Software Engineer II",
+                "company": "Cohesity",
+                "location": "Santa Clara, CA",
+                "duration": "2026 - Present",
+                "description": "Building scalable, distributed systems for an enterprise data security and management platform.",
+                "bullet-one": "Contributed to the design and development of distributed backend services using **Go** and **C++**, supporting petabyte-scale data workloads across hybrid cloud environments.",
+                "bullet-two": "Improved system reliability and performance through profiling, optimization, and observability enhancements across critical data paths.",
+                "bullet-three": "Collaborated cross-functionally with product, QA, and SRE teams to ship features end-to-end, with a focus on correctness, scalability, and operational excellence."
+            },
+            "its": {
+                "title": "Applications Programmer",
+                "department": "Institute of Transportation Studies, UC Irvine",
+                "location": "Irvine, CA",
+                "duration": "Jan 2026 - Apr 2026",
+                "description": "Building AI-powered developer tooling for transportation simulation research, focusing on root cause analysis, knowledge retrieval, and production reliability.",
+                "rca-agent": "RCA Agent: Developed a post-run **Python** root cause analysis agent for long-running **ActivitySim** simulations that summarizes failure logs, extracts key stack traces and **YAML** config context, and generates a concise root cause report for researchers.",
+                "rag-knowledge-base": "RAG Knowledge Base: Built a retrieval-augmented knowledge base by embedding runbooks and resolved incidents into **pgvector** on **PostgreSQL**, stored source documents in **Amazon S3**, and returned cited snippets to suggest likely fixes.",
+                "productionization": "Productionization: Hardened the tool with structured log parsing, rate limiting, timeouts and fallbacks, and basic latency and token cost metrics so it runs safely on shared lab machines."
+            },
+            "submarts": {
+                "title": "Software Engineer Intern",
+                "company": "SubMarts Inc",
+                "location": "Irvine, CA",
+                "duration": "Jul 2025 - Sep 2025",
+                "description": "Built scalable backend systems for a subscription commerce platform focusing on order lifecycle management, real-time notifications, and cloud infrastructure.",
+                "order-management": "Designed and built an order state machine in **Java** to manage order transitions across payment, inventory, and notification services, avoiding broken or stuck orders by handling rollbacks under partial failures.",
+                "notification-service": "Developed a notification service with **Redis** message queues and achieved a 99.9% message delivery success rate through deduplication and retry controls over 100,000 transactions.",
+                "api-development": "Built **REST APIs** using **Hibernate** to apply weighted scoring logic to showcase ranked customer reviews.",
+                "cloud-infrastructure": "Reconfigured **AWS** infrastructure with **EC2** Auto Scaling Groups to handle traffic spikes."
+            },
+            "uci": {
+                "title": "Graduate Student Researcher",
+                "department": "Institute of Transportation Studies, UC Irvine",
+                "location": "Irvine, CA",
+                "duration": "Jul 2025 - Dec 2025",
+                "description": "Refactored and automated transportation simulation pipelines, improving reliability, performance, and developer experience for ongoing research.",
+                "system-integration": "Refactored legacy transportation modeling codebase in **Python**, resolved dependency conflicts with **Poetry** dependency management and virtual environments, improved cross-platform reliability and eliminated configuration errors.",
+                "workflow-automation": "Automated multi-scenario simulation pipelines with **Python** scripts to reduce processing time from 24 hours to 30 minutes and eliminated recurring failures.",
+                "debugging-framework": "Implemented a testing and debugging setup using **pytest** and remote debugging, and documented troubleshooting steps that reduced system setup time by 50%."
+            },
+            "capstone": {
+                "title": "Software Engineer (Capstone)",
+                "company": "Office of Information Technology, UC Irvine",
+                "location": "Irvine, CA",
+                "duration": "Sep 2025 - Dec 2025",
+                "description": "Built a production-grade serverless interface for data lake configurations and integrated enterprise SSO authentication.",
+                "react-interface": "Architected a serverless **React** and **TypeScript** GUI with **AWS API Gateway** to manage data lake configurations, replacing manual JSON workflows with a POST-based RPC API that routed validated requests to backend **Lambda** services backed by **DynamoDB**.",
+                "sso-integration": "Engineered enterprise SSO authentication by integrating **AWS Cognito** with UCI Shibboleth via **SAML**, leveraging API Gateway JWT Authorizers and custom identity claim mapping to propagate user role attributes for access control.",
+                "cors-preflight": "Hardened cloud infrastructure security and efficiency by configuring **API Gateway** Mock Integrations for **CORS** preflight handling, preventing unnecessary **Lambda** invocations during browser OPTIONS requests.",
+                "automated-deployment": "Automated the CI/CD deployment lifecycle using **AWS Amplify Hosting** integrated with **GitHub**, enabling branch-based deployments and globally distributed static asset delivery through **Amazon CloudFront**."
+            }
         },
-        "submarts": {
-          "title": "Software Engineer Intern",
-          "company": "SubMarts Inc",
-          "location": "Irvine, CA",
-          "duration": "Jul 2025 – Sep 2025",
-          "description": "Built scalable backend systems for a subscription commerce platform focusing on order lifecycle management, real-time notifications, and cloud infrastructure.",
-          "order-management": "Designed and built an order state machine in **Java** to manage order transitions across payment, inventory, and notification services, avoiding broken or stuck orders by handling rollbacks under partial failures.",
-          "notification-service": "Developed a notification service with **Redis** message queues and achieved a 99.9% message delivery success rate through deduplication and retry controls over 100,000 transactions.",
-          "api-development": "Built **REST APIs** using **Hibernate** to apply weighted scoring logic to showcase ranked customer reviews.",
-          "cloud-infrastructure": "Reconfigured **AWS** infrastructure with **EC2** Auto Scaling Groups to handle traffic spikes."
+        "PortfolioSection": {
+            "title": "Some Projects I've Built",
+            "actions": {
+                "visit-website": "Visit Website",
+                "source-code": "Source Code"
+            },
+            "projects": {
+                "backend": {
+                    "uci-its-rca": {
+                        "description": "An AI-powered root cause analysis tool for failed ActivitySim transportation simulations. Uses a memory-safe reverse-chunk log parser, GPT-4o Structured Outputs, and a RAG knowledge base backed by pgvector on PostgreSQL and Amazon S3 to produce concise, cited root cause reports. Features rate limiting, exponential-backoff retries, and per-call cost metrics for production use on shared lab machines."
+                    },
+                    "ai-orchestrator": {
+                        "description": "Developed a multi-agent AI system capable of automating the full software development lifecycle (SDLC), utilizing Model Context Protocol (MCP) and Google Gemini 2.5 models. Features an interactive Gradio web interface for iterative review and automatically generates comprehensive unit and integration tests."
+                    },
+                    "promomall": {
+                        "description": "A high-concurrency marketing lottery platform built with Java, Spring Boot, Redis, RocketMQ, and ElasticSearch. Designed rule-engine microservices and implemented Redis-based sliding-block locks to ensure consistency under thousands of concurrent requests."
+                    },
+                    "ai-agent": {
+                        "description": "An orchestration system for AI agents using Spring Boot, MyBatis, Redis, and PGVector. Supports RAG knowledge bases, prompt orchestration, and hot-deploy low-code visual flows."
+                    },
+                    "summailize": {
+                        "description": "A lightweight AI agent that automatically summarizes Gmail messages into short, actionable insights. Built as a Chrome Extension with Flask backend, featuring Azure OpenAI integration, Firebase storage, and timezone-aware background scheduling for autonomous email processing."
+                    }
+                },
+                "fullstack": {
+                    "portfolio-website": {
+                        "description": "A modern, responsive portfolio website showcasing my projects, experience, and skills. Built with Next.js, React, TypeScript, and Tailwind CSS. Features interactive sections, smooth animations, and mobile-first design."
+                    },
+                    "food-ordering": {
+                        "description": "An online food ordering system similar to DoorDash, built with Spring MVC, Hibernate, and React. Features product management, order tracking, and secure login with Spring Security."
+                    }
+                },
+                "mobile": {
+                    "music-player": {
+                        "description": "A Spotify-like Android music player built with Kotlin and MVVM architecture. Supports offline playback, playlist management, and a smooth UI powered by ExoPlayer."
+                    }
+                }
+            }
         },
-        "uci": {
-          "title": "Graduate Student Researcher",
-          "department": "Institute of Transportation Studies, UC Irvine",
-          "location": "Irvine, CA",
-          "duration": "Jul 2025 – Dec 2025",
-          "description": "Refactored and automated transportation simulation pipelines, improving reliability, performance, and developer experience for ongoing research.",
-          "system-integration": "Refactored legacy transportation modeling codebase in **Python**, resolved dependency conflicts with **Poetry** dependency management and virtual environments, improved cross-platform reliability and eliminated configuration errors.",
-          "workflow-automation": "Automated multi-scenario simulation pipelines with **Python** scripts to reduce processing time from 24 hours to 30 minutes and eliminated recurring failures.",
-          "debugging-framework": "Implemented a testing and debugging setup using **pytest** and remote debugging, and documented troubleshooting steps that reduced system setup time by 50%."
-        },
-        "capstone": {
-          "title": "Software Engineer (Capstone)",
-          "company": "Office of Information Technology, UC Irvine",
-          "location": "Irvine, CA",
-          "duration": "Sep 2025 – Dec 2025",
-          "description": "Built a production-grade serverless interface for data lake configurations and integrated enterprise SSO authentication.",
-          "react-interface": "Architected a serverless **React** and **TypeScript** GUI with **AWS API Gateway** to manage data lake configurations, replacing manual JSON workflows with a POST-based RPC API that routed validated requests to backend **Lambda** services backed by **DynamoDB**.",
-          "sso-integration": "Engineered enterprise SSO authentication by integrating **AWS Cognito** with UCI Shibboleth via **SAML**, leveraging API Gateway JWT Authorizers and custom identity claim mapping to propagate user role attributes for access control.",
-          "cors-preflight": "Hardened cloud infrastructure security and efficiency by configuring **API Gateway** Mock Integrations for **CORS** preflight handling, preventing unnecessary **Lambda** invocations during browser OPTIONS requests.",
-          "automated-deployment": "Automated the CI/CD deployment lifecycle using **AWS Amplify Hosting** integrated with **GitHub**, enabling branch-based deployments and globally distributed static asset delivery through **Amazon CloudFront**."
+        "ContactSection": {
+            "title": "Contact Me",
+            "paragraph-one": "If you have any inquiries, collaboration ideas, or opportunities, feel free to reach out via email. I enjoy working with passionate teams and exploring new challenges in software engineering.",
+            "paragraph-two": "Even if you just want to connect or discuss tech, I'd be happy to hear from you. Looking forward to meaningful conversations and future collaborations!",
+            "cta": "Say Hello!"
         }
-      },
-      "PortfolioSection": {
-        "title": "Some Projects I've Built",
-        "actions": {
-          "visit-website": "Visit Website",
-          "source-code": "Source Code"
-        },
-        "projects": {
-          "backend": {
-            "uci-its-rca": {
-              "description": "An AI-powered root cause analysis tool for failed ActivitySim transportation simulations. Uses a memory-safe reverse-chunk log parser, GPT-4o Structured Outputs, and a RAG knowledge base backed by pgvector on PostgreSQL and Amazon S3 to produce concise, cited root cause reports. Features rate limiting, exponential-backoff retries, and per-call cost metrics for production use on shared lab machines."
-            },
-            "ai-orchestrator": {
-              "description": "Developed a multi-agent AI system capable of automating the full software development lifecycle (SDLC), utilizing Model Context Protocol (MCP) and Google Gemini 2.5 models. Features an interactive Gradio web interface for iterative review and automatically generates comprehensive unit and integration tests."
-            },
-            "promomall": {
-              "description": "A high-concurrency marketing lottery platform built with Java, Spring Boot, Redis, RocketMQ, and ElasticSearch. Designed rule-engine microservices and implemented Redis-based sliding-block locks to ensure consistency under thousands of concurrent requests."
-            },
-            "ai-agent": {
-              "description": "An orchestration system for AI agents using Spring Boot, MyBatis, Redis, and PGVector. Supports RAG knowledge bases, prompt orchestration, and hot-deploy low-code visual flows."
-            },
-            "summailize": {
-              "description": "A lightweight AI agent that automatically summarizes Gmail messages into short, actionable insights. Built as a Chrome Extension with Flask backend, featuring Azure OpenAI integration, Firebase storage, and timezone-aware background scheduling for autonomous email processing."
-            }
-          },
-          "fullstack": {
-            "portfolio-website": {
-              "description": "A modern, responsive portfolio website showcasing my projects, experience, and skills. Built with Next.js, React, TypeScript, and Tailwind CSS. Features interactive sections, smooth animations, and mobile-first design."
-            },
-            "food-ordering": {
-              "description": "An online food ordering system similar to DoorDash, built with Spring MVC, Hibernate, and React. Features product management, order tracking, and secure login with Spring Security."
-            }
-          },
-          "mobile": {
-            "music-player": {
-              "description": "A Spotify-like Android music player built with Kotlin and MVVM architecture. Supports offline playback, playlist management, and a smooth UI powered by ExoPlayer."
-            }
-          }
-        }
-      },
-      "ContactSection": {
-        "title": "Contact Me",
-        "paragraph-one": "If you have any inquiries, collaboration ideas, or opportunities, feel free to reach out via email. I enjoy working with passionate teams and exploring new challenges in software engineering.",
-        "paragraph-two": "Even if you just want to connect or discuss tech, I’d be happy to hear from you. Looking forward to meaningful conversations and future collaborations!",
-        "cta": "Say Hello!"
-      }
     },
     "Navigation": {
-      "about": "About",
-      "experience": "Experience",
-      "projects": "Projects",
-      "contact": "Contact",
-      "resume": "Resume"
+        "about": "About",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact",
+        "resume": "Resume"
     },
     "default-seo-title": "Portfolio | Carey Wang",
-    "default-seo-description": "I'm a passionate software engineer building scalable, distributed, and impactful applications across backend, full-stack, and AI-driven systems."
-  }
+    "default-seo-description": "Software Engineer II at Cohesity, building scalable, distributed, and impactful applications across backend, full-stack, and AI-driven systems."
+}

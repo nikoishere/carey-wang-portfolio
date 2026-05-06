@@ -43,6 +43,43 @@ export default function ExperienceSection() {
                 </h2>
 
                 <div className="grid gap-12">
+                    {/* Software Engineer II - Cohesity */}
+                    <div className="bg-white p-8 rounded-lg shadow-lg">
+                        <div className="mb-6">
+                            <div className="flex justify-between items-start mb-2">
+                                <h3 className="text-2xl font-bold">
+                                    {t("cohesity.title")}
+                                </h3>
+                                <p className="text-lg font-semibold">
+                                    {t("cohesity.duration")}
+                                </p>
+                            </div>
+                            <div className="flex justify-between items-center mb-1">
+                                <p className="text-lg font-semibold">
+                                    {t("cohesity.company")}
+                                </p>
+                                <p className="text-lg font-semibold">
+                                    {t("cohesity.location")}
+                                </p>
+                            </div>
+                            <p className="italic">
+                                {t("cohesity.description")}
+                            </p>
+                        </div>
+
+                        <ul className="space-y-4">
+                            <li>
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("cohesity.bullet-one"))}
+                            </li>
+                            <li>
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("cohesity.bullet-two"))}
+                            </li>
+                            <li>
+                                <strong className="text-primary-200">•</strong> {renderTextWithTechHighlight(t("cohesity.bullet-three"))}
+                            </li>
+                        </ul>
+                    </div>
+
                     {/* Applications Programmer - ITS UCI */}
                     <div className="bg-white p-8 rounded-lg shadow-lg">
                         <div className="mb-6">
