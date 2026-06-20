@@ -21,7 +21,7 @@
                 "location": "Santa Clara, CA",
                 "duration": "2026 - Present",
                 "description": "Building scalable, distributed systems for an enterprise data security and management platform.",
-                "bullet-one": "Contributed to the design and development of distributed backend services using **Go** and **C++**, supporting petabyte-scale data workloads across hybrid cloud environments.",
+                "bullet-one": "Contributed to the design and development of distributed backend services using **Go**, supporting petabyte-scale data workloads across hybrid cloud environments.",
                 "bullet-two": "Improved system reliability and performance through profiling, optimization, and observability enhancements across critical data paths.",
                 "bullet-three": "Collaborated cross-functionally with product, QA, and SRE teams to ship features end-to-end, with a focus on correctness, scalability, and operational excellence."
             },
