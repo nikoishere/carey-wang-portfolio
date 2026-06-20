@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
         rules: {
             userAgent: "*"
         },
-        sitemap: "https://serdargokhan.dev/sitemap.xml",
-        host: "https://serdargokhan.dev"
+        sitemap: "https://carey.wang/sitemap.xml",
+        host: "https://carey.wang"
     };
 }

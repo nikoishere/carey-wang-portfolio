@@ -45,7 +45,7 @@ export default async function RootLayout({
     );
 }
 
-const BASE_URL = "https://serdargokhan.dev";
+const BASE_URL = "https://carey.wang";
 
 export async function generateMetadata({
     params: { locale }
@@ -58,7 +58,7 @@ export async function generateMetadata({
         metadataBase: new URL(BASE_URL),
         title: {
             default: t("default-seo-title"),
-            template: "%s | Serdar Gökhan"
+            template: "%s | Carey Wang"
         },
         description: t("default-seo-description"),
         icons: {
@@ -100,14 +100,13 @@ export async function generateMetadata({
             google: "UJthXaWw4SK7do_wKDjzQXss3tPHWfF0dXCBjfQrZek"
         },
         twitter: {
-            card: "summary_large_image",
-            creator: "@serdarrgokhann"
+            card: "summary_large_image"
         },
         openGraph: {
-            title: "Serdar Gökhan",
+            title: "Carey Wang",
             description: t("default-seo-description"),
             url: `${BASE_URL}/${locale}`,
-            siteName: "Serdar Gökhan",
+            siteName: "Carey Wang",
             locale,
             type: "website"
         }
