@@ -119,7 +119,8 @@
         "experience": "Experience",
         "projects": "Projects",
         "contact": "Contact",
-        "resume": "Resume"
+        "resume": "Resume",
+        "resumeUnavailable": "Resume currently unavailable"
     },
     "default-seo-title": "Portfolio | Carey Wang",
     "default-seo-description": "Software Engineer II at Cohesity, building scalable, distributed, and impactful applications across backend, full-stack, and AI-driven systems."

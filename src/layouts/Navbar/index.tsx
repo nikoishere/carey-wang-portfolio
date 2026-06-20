@@ -63,15 +63,17 @@ export default function Navbar() {
                     ))}
                 </ul>
 
-                <div className="group inline-block">
-                    <NextLink
-                        className="inline-block rounded-md border border-primary-300 bg-white px-4 py-1.5 font-medium transition duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[-4px_4px_0px_0px_#ffd300]"
-                        href="/static/Resume-Carey-Wang.pdf"
-                        target="_blank"
-                        prefetch={false}
+                <div className="group relative inline-block">
+                    <span
+                        className="inline-block cursor-not-allowed rounded-md border border-primary-300 bg-white px-4 py-1.5 font-medium opacity-70"
+                        aria-disabled="true"
+                        title={t("resumeUnavailable")}
                     >
                         {t("resume")}
-                    </NextLink>
+                    </span>
+                    <span className="pointer-events-none absolute left-1/2 top-full mt-2 -translate-x-1/2 whitespace-nowrap rounded-md bg-primary-100 px-3 py-1 text-sm text-white opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+                        {t("resumeUnavailable")}
+                    </span>
                 </div>
             </div>
         </nav>
